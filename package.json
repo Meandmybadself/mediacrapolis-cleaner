@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js --inspect"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
   "dependencies": {
     "dotenv": "^16.0.1",
     "xmlrpc": "^1.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
